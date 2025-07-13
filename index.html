@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css">
+		<title>Form Validation</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="box">
+				<header class="signup-header">
+					<h1>SignUp</h1>
+				</header>
+
+				<main class="signup-main">
+					<form action="#">
+
+						<div class="name-ip">
+							<label for="name">Full Name</label>
+						   <input id="name" type="text" placeholder="Type Name Here...">
+							<span id="nameErr"></span>
+						</div>
+						<div class="email-ip">
+							<label for="email">Email</label>
+						   <input id="email" type="email" placeholder="xyz@gmail.com">
+							<span id="emailErr"></span>
+						</div>
+						<div class="pass-ip">
+							<label for="password">PassWord</label>
+						   <input id="password" type="password" placeholder="At least 8 characters">
+							<span id="passErr"></span>
+						</div>
+						<div class="submit">
+						   <input id="submit-btn" type="submit" value="Create Account">
+						</div>
+
+					</form>	
+				</main>
+
+				<footer class="signup-footer">
+					<div>
+						Already have an account? <a href="">Login</a>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+
+	<script src="main.js"></script>
+</html>
